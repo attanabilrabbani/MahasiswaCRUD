@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "dadb3693-accc-4d3f-8c65-185de4077cfa",
+		"name": "MahasiswaCrud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24312859"
+	},
+	"item": [
+		{
+			"name": "Tambah Mahasiswa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/mahasiswa/add/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"mahasiswa",
+						"add",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Mahasiswa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/mahasiswa/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"mahasiswa",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Mahasiswa by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/mahasiswa/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"mahasiswa",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Mahasiswa",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/mahasiswa/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"mahasiswa",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mahasiswa Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/mahasiswa/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"mahasiswa",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
