@@ -16,13 +16,13 @@ Test the CRUD:
 - import MahasiswaCRUD_postman.json as a collection
 - All requests are contained within the collection
 - default body for create/update (POST and PUT requests):
-  {
+- {
     "Nama": {your name},
     "NPM": {your npm},
     "Semester": {your semester},
     "Ipk": {your ipk}
 
-}
+  }
 
 - Nama, NPM: String
 - Semester: int
